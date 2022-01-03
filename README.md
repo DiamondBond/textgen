@@ -9,7 +9,7 @@ LSTM Recurrent Neural Network for Text Generation
 
 - Generate text: `python3 generate.py checkpoints/weights-improvement-0*.hdf5`
 
-# Possible Improvements to the Model
+## Possible Improvements to the Model
 - Predict fewer than 1,000 characters as output for a given seed.
 - Remove all punctuation from the source text, and therefore from the models’ vocabulary.
 - Try a one hot encoded for the input sequences.
