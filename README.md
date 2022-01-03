@@ -5,9 +5,9 @@ LSTM Recurrent Neural Network for Text Generation
 
 - Install dependencies: `pip install -r requirements.txt`
 
-- Build weights: `python3 build.py input/wonderland.txt`
+- Train the model: `python3 train.py input/matrix.txt`
 
-- Generate text: `python3 generate.py checkpoints/weights-improvement-0*.hdf5`
+- Generate text: `python3 generate.py input/matrix.txt checkpoints/weights-improvement-20-1.5858-bigger.hdf5`
 
 ## Possible Improvements to the Model
 - Predict fewer than 1,000 characters as output for a given seed.
