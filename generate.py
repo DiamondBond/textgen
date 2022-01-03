@@ -6,8 +6,10 @@ from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import Dropout
 from keras.layers import LSTM
-from keras.callbacks import ModelCheckpoint
 from keras.utils import np_utils
+
+# supress warnings, info & errors
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 # load ascii text and covert to lowercase
 filename = sys.argv[1]
@@ -61,7 +63,7 @@ model.load_weights(filename)
 model.compile(loss='categorical_crossentropy', optimizer='adam')
 
 # pick a random seed
-start = numpy.random.randint(0, len(dataX)-1)
+start = numpy.random.randint(0, len(dataX) - 1)
 pattern = dataX[start]
 print("Seed:")
 print("\"", ''.join([int_to_char[value] for value in pattern]), "\"")
