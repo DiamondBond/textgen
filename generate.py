@@ -76,6 +76,8 @@ for i in range(1000):
     result = int_to_char[index]
     seq_in = [int_to_char[value] for value in pattern]
     sys.stdout.write(result)
+    with open('output/output.txt', 'a+') as f:
+        f.write(result)
     pattern.append(index)
     pattern = pattern[1:len(pattern)]
 
