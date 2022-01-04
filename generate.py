@@ -83,4 +83,4 @@ for i in range(1000):
     pattern.append(index)
     pattern = pattern[1:len(pattern)]
 
-print("\nDone.")
+print("\n\nDone.")

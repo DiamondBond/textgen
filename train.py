@@ -1,4 +1,4 @@
-# Larger LSTM Network to Generate Text
+# Large LSTM Network to Generate Text
 import sys
 import os
 import numpy
@@ -59,10 +59,10 @@ model.add(Dense(y.shape[1], activation='softmax'))
 model.compile(loss='categorical_crossentropy', optimizer='adam')
 
 # define the checkpoint
-filepath = "checkpoints/weights-improvement-{epoch:02d}-{loss:.4f}-bigger.hdf5"
+filepath = "checkpoints/weights-improvement-{epoch:02d}-{loss:.4f}.hdf5"
 checkpoint = ModelCheckpoint(
     filepath, monitor='loss', verbose=1, save_best_only=True, mode='min')
 callbacks_list = [checkpoint]
 
 # fit the model
-model.fit(X, y, epochs=50, batch_size=64, callbacks=callbacks_list)
+model.fit(X, y, epochs=75, batch_size=64, callbacks=callbacks_list)

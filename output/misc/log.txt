@@ -1,0 +1,80 @@
+Epoch 1/50
+2171/2171 [==============================] - ETA: 0s - loss: 2.9291     
+Epoch 1: loss improved from inf to 2.92908, saving model to checkpoints/weights-improvement-01-2.9291-bigger.hdf5
+2171/2171 [==============================] - 853s 392ms/step - loss: 2.9291
+Epoch 2/50
+2171/2171 [==============================] - ETA: 0s - loss: 2.5161   
+Epoch 2: loss improved from 2.92908 to 2.51613, saving model to checkpoints/weights-improvement-02-2.5161-bigger.hdf5
+2171/2171 [==============================] - 857s 395ms/step - loss: 2.5161
+Epoch 3/50
+2171/2171 [==============================] - ETA: 0s - loss: 2.3257   
+Epoch 3: loss improved from 2.51613 to 2.32567, saving model to checkpoints/weights-improvement-03-2.3257-bigger.hdf5
+2171/2171 [==============================] - 862s 397ms/step - loss: 2.3257
+Epoch 4/50
+2171/2171 [==============================] - ETA: 0s - loss: 2.2064   
+Epoch 4: loss improved from 2.32567 to 2.20636, saving model to checkpoints/weights-improvement-04-2.2064-bigger.hdf5
+2171/2171 [==============================] - 867s 399ms/step - loss: 2.2064
+Epoch 5/50
+2171/2171 [==============================] - ETA: 0s - loss: 2.1165   
+Epoch 5: loss improved from 2.20636 to 2.11646, saving model to checkpoints/weights-improvement-05-2.1165-bigger.hdf5
+2171/2171 [==============================] - 872s 402ms/step - loss: 2.1165
+Epoch 6/50
+2171/2171 [==============================] - ETA: 0s - loss: 2.0438   
+Epoch 6: loss improved from 2.11646 to 2.04383, saving model to checkpoints/weights-improvement-06-2.0438-bigger.hdf5
+2171/2171 [==============================] - 873s 402ms/step - loss: 2.0438
+Epoch 7/50
+2171/2171 [==============================] - ETA: 0s - loss: 1.9867   
+Epoch 7: loss improved from 2.04383 to 1.98667, saving model to checkpoints/weights-improvement-07-1.9867-bigger.hdf5
+2171/2171 [==============================] - 874s 402ms/step - loss: 1.9867
+Epoch 8/50
+2171/2171 [==============================] - ETA: 0s - loss: 1.9346   
+Epoch 8: loss improved from 1.98667 to 1.93459, saving model to checkpoints/weights-improvement-08-1.9346-bigger.hdf5
+2171/2171 [==============================] - 874s 403ms/step - loss: 1.9346
+Epoch 9/50
+2171/2171 [==============================] - ETA: 0s - loss: 1.8930   
+Epoch 9: loss improved from 1.93459 to 1.89297, saving model to checkpoints/weights-improvement-09-1.8930-bigger.hdf5
+2171/2171 [==============================] - 875s 403ms/step - loss: 1.8930
+Epoch 10/50
+2171/2171 [==============================] - ETA: 0s - loss: 1.8487   
+Epoch 10: loss improved from 1.89297 to 1.84867, saving model to checkpoints/weights-improvement-10-1.8487-bigger.hdf5
+2171/2171 [==============================] - 874s 403ms/step - loss: 1.8487
+Epoch 11/50
+2171/2171 [==============================] - ETA: 0s - loss: 1.8140   
+Epoch 11: loss improved from 1.84867 to 1.81399, saving model to checkpoints/weights-improvement-11-1.8140-bigger.hdf5
+2171/2171 [==============================] - 874s 403ms/step - loss: 1.8140
+Epoch 12/50
+2171/2171 [==============================] - ETA: 0s - loss: 1.7791   
+Epoch 12: loss improved from 1.81399 to 1.77915, saving model to checkpoints/weights-improvement-12-1.7791-bigger.hdf5
+2171/2171 [==============================] - 875s 403ms/step - loss: 1.7791
+Epoch 13/50
+2171/2171 [==============================] - ETA: 0s - loss: 1.7489   
+Epoch 13: loss improved from 1.77915 to 1.74891, saving model to checkpoints/weights-improvement-13-1.7489-bigger.hdf5
+2171/2171 [==============================] - 875s 403ms/step - loss: 1.7489
+Epoch 14/50
+2171/2171 [==============================] - ETA: 0s - loss: 1.7222   
+Epoch 14: loss improved from 1.74891 to 1.72224, saving model to checkpoints/weights-improvement-14-1.7222-bigger.hdf5
+2171/2171 [==============================] - 876s 403ms/step - loss: 1.7222
+Epoch 15/50
+2171/2171 [==============================] - ETA: 0s - loss: 1.6950   
+Epoch 15: loss improved from 1.72224 to 1.69497, saving model to checkpoints/weights-improvement-15-1.6950-bigger.hdf5
+2171/2171 [==============================] - 875s 403ms/step - loss: 1.6950
+Epoch 16/50
+2171/2171 [==============================] - ETA: 0s - loss: 1.6707   
+Epoch 16: loss improved from 1.69497 to 1.67067, saving model to checkpoints/weights-improvement-16-1.6707-bigger.hdf5
+2171/2171 [==============================] - 875s 403ms/step - loss: 1.6707
+Epoch 17/50
+2171/2171 [==============================] - ETA: 0s - loss: 1.6486   
+Epoch 17: loss improved from 1.67067 to 1.64857, saving model to checkpoints/weights-improvement-17-1.6486-bigger.hdf5
+2171/2171 [==============================] - 875s 403ms/step - loss: 1.6486
+Epoch 18/50
+2171/2171 [==============================] - ETA: 0s - loss: 1.6262   
+Epoch 18: loss improved from 1.64857 to 1.62624, saving model to checkpoints/weights-improvement-18-1.6262-bigger.hdf5
+2171/2171 [==============================] - 875s 403ms/step - loss: 1.6262
+Epoch 19/50
+2171/2171 [==============================] - ETA: 0s - loss: 1.6064   
+Epoch 19: loss improved from 1.62624 to 1.60641, saving model to checkpoints/weights-improvement-19-1.6064-bigger.hdf5
+2171/2171 [==============================] - 875s 403ms/step - loss: 1.6064
+Epoch 20/50
+2171/2171 [==============================] - ETA: 0s - loss: 1.5858   
+Epoch 20: loss improved from 1.60641 to 1.58583, saving model to checkpoints/weights-improvement-20-1.5858-bigger.hdf5
+2171/2171 [==============================] - 876s 404ms/step - loss: 1.5858
